@@ -122,7 +122,7 @@ export default {
       try {
         console.log(this.evidence)
         let hasil = await axios({
-          url: 'http://localhost:3000/bayes',
+          url: 'http://128.199.77.28:3000/bayes',
           method: 'GET',
           params: {
             "lung_cancer_probability": 0.40,
