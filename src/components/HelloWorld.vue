@@ -14,7 +14,7 @@
           </thead>
           <tbody>
             <tr v-for="symptomp in symptomps" :key="symptomp.name">
-              <td>{{ symptomp.name }} - shania</td>
+              <td>{{ symptomp.name }}afifahumaira</td>
               <td>
                 <input class="form-check-input" type="checkbox" v-model="evidence" :value="symptomp.evidence" id="defaultCheck1">
               </td>
